@@ -13,7 +13,7 @@ const budget = require("./data.json");
 console.log(budget)
 
 app.get("/hello",(req,res) => {
-    res.send("Hello Sanj!!");
+    res.send("Hello Naveena!!");
 })
 
 app.get('/budget', (req, res) => {
